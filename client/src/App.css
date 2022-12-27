@@ -1,0 +1,38 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info input{
+  width: 300px;
+  margin-top: 3px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+}
+.info label{
+  margin-top: 3px;
+}
+
+.info button{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+.info button:hover{
+  cursor: pointer;
+  color: rgb(10, 92, 92)marine;
+
+}
